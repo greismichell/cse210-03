@@ -3,7 +3,7 @@ Ready to test yourself to save your live? jumper is the most exiced game to play
 At the begining of the game is displayed a person in a parachute.
 the puzzle is a secret word randomly chosen from a list and the players will to try to guess the word letter by letter.
 
-Rules:
+## Game Rules:
 
 * As player you need to fine the secret word letter by letter.
 * if the guess is correct the word is reveled insted a line is cut on the player's parachute.
