@@ -18,9 +18,7 @@ class MysteryWord:
             
         print()
 
-    def guess_letter(self):
-        letter = input('guess the letter [a-z]: ').lower()
-        print('\n')
+    def test_letter(self, letter):
         if letter in self._value:
             self._guessed[letter]= True
             return True
