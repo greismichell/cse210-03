@@ -1,3 +1,4 @@
+from tkinter import W
 from game.director import Director
 
 director = Director()

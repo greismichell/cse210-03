@@ -21,6 +21,8 @@ class Parachute:
             print()
             print()
             print()
+            print()
+            print()
             print(Adding.CYAN + '~~~~~~~~~~~~~' + Adding.ENDC )
             print('\n')
         if self._fail_count==1:
@@ -32,6 +34,8 @@ class Parachute:
             print(Adding.GREEN + '     / \\' + Adding.ENDC)
             print()
             print()
+            print()
+            print()
             print(Adding.CYAN + '~~~~~~~~~~~~~' + Adding.ENDC )
             print('\n')
         if self._fail_count==2:
@@ -40,6 +44,8 @@ class Parachute:
             print('      O')
             print(Adding.YELLOW + '     /|\\' + Adding.ENDC)
             print(Adding.GREEN + '     / \\' + Adding.ENDC)
+            print()
+            print()
             print()
             print(Adding.CYAN + '~~~~~~~~~~~~~' + Adding.ENDC )
             print('\n')
@@ -51,7 +57,7 @@ class Parachute:
             print(Adding.CYAN + '~~~~~~~~~~~~~' + Adding.ENDC )
             print('\n')
         if self._fail_count == 4:
-            print('     \ O /')
+            print(Adding.YELLOW + '     \\'+ Adding.ENDC+ 'O' + Adding.YELLOW +'/')
             print(Adding.CYAN + '~~~~~~~~~~~~~' + Adding.ENDC )
             print('\n')
 
